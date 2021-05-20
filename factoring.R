@@ -13,5 +13,5 @@ while (count < testnumber) {
 }
 factors[length(factors) + 1] <- testnumber
 df <- data.frame(factors, rev(factors))
-print(df)
+print(df)  #print out the data frame containing factor pairs
 }
